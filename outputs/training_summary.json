@@ -1,0 +1,17 @@
+{
+    "architecture": "MLP (128-Dropout(0.3)-64-Dropout(0.2)-32-Sigmoid)",
+    "input_features": 96,
+    "optimizer": "Adam",
+    "initial_learning_rate": 0.001,
+    "batch_size": 256,
+    "max_epochs": 30,
+    "epochs_trained": 30,
+    "class_weights": {
+        "0": 0.6898698422741447,
+        "1": 1.8166914608747398
+    },
+    "best_val_loss": 0.3886,
+    "best_val_accuracy": 0.8146,
+    "best_val_auc": 0.9083,
+    "model_file": "C:\\Users\\Pooja Sri\\OneDrive\\Documents\\Desktop\\hotel-booking-cancellation-analysis\\outputs\\hotel_cancellation_model.keras"
+}

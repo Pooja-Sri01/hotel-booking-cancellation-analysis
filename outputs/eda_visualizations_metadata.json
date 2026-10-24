@@ -1,0 +1,56 @@
+{
+    "eda_01_cancellation_count.png": {
+        "figure_name": "eda_01_cancellation_count.png",
+        "title": "Overall Reservation Cancellation Distribution",
+        "purpose": "Analyze baseline target class distribution and quantify reservation cancellations.",
+        "findings": "Of 119,390 analyzed reservations, 75,166 (63.0%) were fulfilled successfully, while 44,224 (37.0%) were canceled or marked as no-shows. This indicates a high baseline cancellation burden on hotel operations."
+    },
+    "eda_02_lead_time_distribution.png": {
+        "figure_name": "eda_02_lead_time_distribution.png",
+        "title": "Lead-Time Distribution (Histogram and KDE)",
+        "purpose": "Assess how advance booking duration relates to reservation cancellations.",
+        "findings": "Canceled reservations exhibit a significantly higher median lead time (113 days) compared to fulfilled reservations (45 days). Guests booking far in advance face greater itinerary uncertainty, elevating the likelihood of cancellation."
+    },
+    "eda_03_cancellation_by_hotel_type.png": {
+        "figure_name": "eda_03_cancellation_by_hotel_type.png",
+        "title": "Cancellation Rate by Hotel Property Type",
+        "purpose": "Compare reservation fragility between urban business hotels and leisure resort destinations.",
+        "findings": "City Hotels experience a substantially higher cancellation rate (41.7%) than Resort Hotels (27.8%). City hotel customers are more frequently business travelers or short-stay guests who modify itineraries easily."
+    },
+    "eda_04_correlation_heatmap.png": {
+        "figure_name": "eda_04_correlation_heatmap.png",
+        "title": "Pearson Correlation Matrix of Numerical Features",
+        "purpose": "Quantify linear dependencies between numerical variables and reservation cancellation.",
+        "findings": "Lead time has the strongest positive linear correlation with cancellation (r = 0.29). Conversely, special requests (r = -0.23) and parking space requirements (r = -0.20) exhibit negative correlations with cancellation, reflecting higher commitment from engaged guests."
+    },
+    "eda_05_adr_distribution_boxplot.png": {
+        "figure_name": "eda_05_adr_distribution_boxplot.png",
+        "title": "Average Daily Rate (ADR) Distribution & Boxplot",
+        "purpose": "Analyze price sensitivity and pricing distributions across hotel types and cancellation outcomes.",
+        "findings": "The overall ADR exhibits a right-skewed distribution with a mean of \u20ac103.46 and median of \u20ac95.00. Canceled reservations consistently display higher median ADRs across both City and Resort hotels, indicating price elasticity."
+    },
+    "eda_06_cancellation_by_market_segment.png": {
+        "figure_name": "eda_06_cancellation_by_market_segment.png",
+        "title": "Cancellation Rate by Market Segment",
+        "purpose": "Determine which booking channel and customer acquisition avenue carries the highest reservation volatility.",
+        "findings": "Market segments vary substantially in cancellation propensity: 'Groups' exhibits the highest cancellation rate (61.1%), whereas 'Complementary' maintains the lowest cancellation rate (13.1%). Direct and Corporate guests demonstrate significantly higher commitment."
+    },
+    "eda_07_cancellation_by_deposit_type.png": {
+        "figure_name": "eda_07_cancellation_by_deposit_type.png",
+        "title": "Cancellation Rate by Deposit Type",
+        "purpose": "Analyze the empirical effectiveness and behavioral paradox of upfront non-refundable deposits.",
+        "findings": "The Non Refund deposit policy demonstrates an unexpected cancellation rate of 99.4%. As documented in Antonio et al. (2019), non-refundable terms are disproportionately assigned to high-risk group contracts and distressed blocks that subsequently cancel en masse."
+    },
+    "eda_08_monthly_booking_patterns.png": {
+        "figure_name": "eda_08_monthly_booking_patterns.png",
+        "title": "Seasonality Analysis: Monthly Booking Volume & Cancellation Rate",
+        "purpose": "Evaluate calendar seasonality and summer peak travel impact on reservation stability.",
+        "findings": "Booking volume peaks during the European summer holiday months (July and August). Cancellation rates closely mirror demand surges, peaking in summer when hotel prices are elevated and guests hold tentative bookings."
+    },
+    "eda_09_special_requests_impact.png": {
+        "figure_name": "eda_09_special_requests_impact.png",
+        "title": "Special Requests Impact on Cancellation Rate",
+        "purpose": "Quantify whether guest engagement and personalized requirements predict booking completion.",
+        "findings": "Guests submitting zero special requests experience a 47.7% cancellation rate, whereas guests submitting 2 or more requests average approximately 13.9% cancellations. Active customization reflects psychological commitment to travel."
+    }
+}

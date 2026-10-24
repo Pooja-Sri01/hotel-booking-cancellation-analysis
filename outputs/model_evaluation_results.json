@@ -1,0 +1,96 @@
+{
+    "metrics": {
+        "accuracy": 0.8115,
+        "precision": 0.6134,
+        "recall": 0.8523,
+        "specificity": 0.796,
+        "f1_score": 0.7134,
+        "roc_auc": 0.908
+    },
+    "confusion_matrix": {
+        "true_negatives": 7548,
+        "false_positives": 1935,
+        "false_negatives": 532,
+        "true_positives": 3070,
+        "tn_pct": 79.6,
+        "fp_pct": 20.4,
+        "fn_pct": 14.77,
+        "tp_pct": 85.23
+    },
+    "classification_report": {
+        "Not Canceled (0)": {
+            "precision": 0.9341584158415842,
+            "recall": 0.7959506485289465,
+            "f1-score": 0.8595342481352845,
+            "support": 9483.0
+        },
+        "Canceled (1)": {
+            "precision": 0.6133866133866134,
+            "recall": 0.8523042754025542,
+            "f1-score": 0.7133728360636691,
+            "support": 3602.0
+        },
+        "accuracy": 0.811463507833397,
+        "macro avg": {
+            "precision": 0.7737725146140988,
+            "recall": 0.8241274619657504,
+            "f1-score": 0.7864535420994767,
+            "support": 13085.0
+        },
+        "weighted avg": {
+            "precision": 0.8458573052231048,
+            "recall": 0.811463507833397,
+            "f1-score": 0.8192993680220282,
+            "support": 13085.0
+        }
+    },
+    "figure_paths": {
+        "loss_curve": "C:\\Users\\Pooja Sri\\OneDrive\\Documents\\Desktop\\hotel-booking-cancellation-analysis\\outputs\\eval_01_training_validation_loss.png",
+        "accuracy_curve": "C:\\Users\\Pooja Sri\\OneDrive\\Documents\\Desktop\\hotel-booking-cancellation-analysis\\outputs\\eval_02_training_validation_accuracy.png",
+        "confusion_matrix": "C:\\Users\\Pooja Sri\\OneDrive\\Documents\\Desktop\\hotel-booking-cancellation-analysis\\outputs\\eval_03_confusion_matrix.png",
+        "roc_curve": "C:\\Users\\Pooja Sri\\OneDrive\\Documents\\Desktop\\hotel-booking-cancellation-analysis\\outputs\\eval_04_roc_curve.png",
+        "feature_importance": "C:\\Users\\Pooja Sri\\OneDrive\\Documents\\Desktop\\hotel-booking-cancellation-analysis\\outputs\\eval_05_feature_importance.png"
+    },
+    "top_features": [
+        {
+            "feature": "country_grouped_PRT",
+            "importance_auc_drop": 0.09501274914356894
+        },
+        {
+            "feature": "adr",
+            "importance_auc_drop": 0.0747868654624726
+        },
+        {
+            "feature": "required_car_parking_spaces",
+            "importance_auc_drop": 0.0667562026367694
+        },
+        {
+            "feature": "lead_time",
+            "importance_auc_drop": 0.05455530468182268
+        },
+        {
+            "feature": "arrival_date_year",
+            "importance_auc_drop": 0.04894308626596067
+        },
+        {
+            "feature": "room_type_changed",
+            "importance_auc_drop": 0.038880832814284116
+        },
+        {
+            "feature": "total_of_special_requests",
+            "importance_auc_drop": 0.03869186650057099
+        },
+        {
+            "feature": "market_segment_Offline TA/TO",
+            "importance_auc_drop": 0.0157539512612892
+        },
+        {
+            "feature": "customer_type_Transient-Party",
+            "importance_auc_drop": 0.015545520606249363
+        },
+        {
+            "feature": "has_agent",
+            "importance_auc_drop": 0.014058931537423325
+        }
+    ]
+}

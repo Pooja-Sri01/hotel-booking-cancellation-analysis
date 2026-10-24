@@ -1,0 +1,16 @@
+HOTEL BOOKING PREPROCESSING SUMMARY
+==================================================
+
+Initial Rows: 119,390
+Zero-guest Rows Removed: 180
+Invalid ADR Records Removed: 2
+Duplicate Rows Handled: 31,980
+Action: Dropped exact identical rows to prevent train-test data leakage.
+Cleaned Rows: 87,228
+
+Train / Val / Test Split:
+  Train: 61,059 (27.52% canceled)
+  Val:   13,084 (27.52% canceled)
+  Test:  13,085 (27.53% canceled)
+
+Total Processed Features: 96

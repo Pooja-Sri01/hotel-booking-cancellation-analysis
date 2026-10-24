@@ -246,7 +246,7 @@ All metrics independently verified against `outputs/model_metrics.csv` and actua
 
 ### 1. Clone the Repository
 ```powershell
-git clone https://github.com/<your-username>/hotel-booking-cancellation-analysis.git
+git clone https://github.com/Pooja-Sri01/hotel-booking-cancellation-analysis.git
 cd hotel-booking-cancellation-analysis
 ```
 
